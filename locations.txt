@@ -1,0 +1,39 @@
+{
+    "cities":[
+   		{
+			"name": "Amarillo",
+			"url_name": "Amarillo",
+			"state": "TX",
+			"lat": 0,
+			"lon": 0
+   		},
+   		{
+			"name": "Columbus",
+			"url_name": "Columbus",
+			"state": "MS",
+			"lat": 0,
+			"lon": 0
+   		},
+   		{
+			"name": "New Orleans",
+			"url_name": "New Orleans",
+			"state": "LA",
+			"lat": 0,
+			"lon": 0
+   		},
+   		{
+			"name": "Starkville",
+			"url_name": "Starkville",
+			"state": "MS",
+			"lat": 0,
+			"lon": 0
+   		},
+   		{
+			"name": "Pickensville",
+			"url_name": "Pickensville",
+			"state": "AL",
+			"lat": 0,
+			"lon": 0
+        }
+    ]
+}

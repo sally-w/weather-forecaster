@@ -1,0 +1,35 @@
+<p><img src="{{wsc.google_static_maps_url}}"></p>
+
+
+
+
+<div class="panel panel-default">    
+    <div class="panel-body">
+        <table class= "table table-hover">
+            <tr>
+                <td> <span class="label label-info">Time and Date:</span> </td>
+                <td> <span class="badge badge-pill badge-info">{{wsc.observation_time | date : 'medium'}}</span></td>
+            </tr>
+            <tr>
+                <td><span class="label label-info">Temperature: </span></td>
+                <td><span class="badge badge-pill badge-info">{{wsc.temperature | temp}}</span></td>
+            </tr>
+            <tr>
+                <td><span class="label label-info">Dewpoint:</span> </td>
+                <td><span class="badge badge-pill badge-info">{{wsc.dewpoint | addFhrt}}</span></td>
+            </tr>
+            <tr>
+                <td><span class="label label-info">Wind:</span> </td>
+                <td><span class="badge badge-pill badge-info">{{wsc.windBearing | windDirection}} at {{wsc.windSpeed | addMph}}</span></td>
+            </tr>
+            <tr>
+                <td><span class="label label-info">Currently: </span></td>
+                <td><span class="badge badge-pill badge-info">{{wsc.summary}}</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span><img src = "{{wsc.imageSource}}" width = "100px"></span></td>
+            </tr>
+        </table>
+    </div>
+</div>
